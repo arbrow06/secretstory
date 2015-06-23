@@ -1,0 +1,36 @@
+{
+  "name": "emergawire_analytic",
+  "version": "0.0.1",
+  "description": "This application aims to take data from emergency services agencies to map out hotspots where there services tend to be desired and help fire departments improve their business development and help them note trends. This will eventually enter a space beyond just fire department calls.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arbrow06/secretstory.git"
+  },
+  "dependencies":{
+    "express": "4.12.4",
+    "jade": "1.11.0"
+  },
+  "keywords": [
+    "data",
+    "analytics",
+    "emergency",
+    "services",
+    "data",
+    "visualization",
+    "web",
+    "platform",
+    "data",
+    "mapping"
+  ],
+  "author": "Andrew Brown <arbrown93@icloud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arbrow06/secretstory/issues"
+  },
+  "homepage": "https://github.com/arbrow06/secretstory#readme"
+}

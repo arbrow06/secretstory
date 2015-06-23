@@ -1,0 +1,13 @@
+extends ./template.jade
+
+block head
+    <link rel="stylesheet" href="leaflet.css" />
+    <link rel="stylesheet" href="map.css" />
+    <meta charset="utf-8" />
+    script(src='leaflet.js')
+    script(src='d3.js')
+block content
+    #header
+        h1!= message
+    #map
+    script(src='map.js')
